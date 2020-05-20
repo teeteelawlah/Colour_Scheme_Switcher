@@ -1,0 +1,81 @@
+html {
+	margin: 0;
+	align-items: center;
+}
+
+span {
+	display: block;
+}
+
+.theme {
+	margin:  100px auto 100px;
+	width: 80%;
+	text-align: center;
+}
+
+h1{
+	font-size: 60px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bolder;
+	color: navy;
+	margin: 50px 0 0 0;
+}
+
+h2{
+	font-size: 20px;
+	font-weight: bolder;
+	color: #000;
+	font-family: 'Courier New', Courier, monospace;
+	margin: 50px 0 0 0;
+}
+
+.colourButton {
+	width: 100px;
+	height: 100px;
+	border: solid black 3px;
+	display: inline-block;
+	border-radius: 20%;
+	cursor: pointer;
+}
+
+.colourButton:hover{
+	opacity: 0.7;
+}
+
+#brown{
+	background: greenyellow;
+}
+
+#indigo{
+	background: darkgray;
+}
+#blue{
+	background: indianred;
+}
+#yellow{
+	background: darkcyan;
+}
+#red{
+	background: fuchsia;
+}
+#green{
+	background: maroon;
+}
+#purple{
+	background: orange;
+}
+#pink{
+	background: chocolate;
+}
+
+@media screen and (max-width:600px){
+	h1{
+		font-size: 30px;
+		margin-top: 20%;
+	}
+
+	h2{
+		font-size: 15px;
+		margin-top: 20%;
+	}
+}
